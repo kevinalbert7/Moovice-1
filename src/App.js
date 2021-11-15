@@ -13,18 +13,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
         <div>
-          <Switch>
-            <Route path="weekly" component={weekly}/>
-            <Route path="weeklyBattle" component={weeklyBattle}/>
-            <Route path="popular" component={popular}/>
-            <Route path="popularBattle" component={popularBattle}/>
-            <Route path="favorites" component={favorites}/>
-            <Route path="*" component={Error404}/>
-          </Switch>
+          <h1>Home</h1>
         </div>
-      </BrowserRouter>
     );
   }
 }
