@@ -10,4 +10,4 @@ class popularBattle extends Component {
     }
 }
 
-export default popular-battle
+export default popularBattle

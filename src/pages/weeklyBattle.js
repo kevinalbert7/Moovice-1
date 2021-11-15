@@ -10,4 +10,4 @@ class weeklyBattle extends Component {
     }
 }
 
-export default weekly-battle
+export default weeklyBattle
