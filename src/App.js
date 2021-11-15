@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 
 import { BrowserRouter, Route, Switch} from 'react-router-dom'
 
-import weekly from './pages/weekly'
-import weeklyBattle from './pages/weeklyBattle'
-import popular from './pages/popular'
-import popularBattle from './pages/popularBattle'
-import favorites from './pages/favorites'
+import Weekly from './pages/Weekly'
+import WeeklyBattle from './pages/WeeklyBattle'
+import Popular from './pages/Popular'
+import PopularBattle from './pages/PopularBattle'
+import Favorites from './pages/Favorites'
 import Error404 from './pages/Error404'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

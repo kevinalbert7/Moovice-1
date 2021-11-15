@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class weeklyBattle extends Component {
+class WeeklyBattle extends Component {
     render() {
         return (
             <div>
-                <h1>weeklyBattle</h1>
+                <h1>WeeklyBattle</h1>
             </div>
         )
     }
 }
 
-export default weeklyBattle
+export default WeeklyBattle

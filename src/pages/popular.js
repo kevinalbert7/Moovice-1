@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class popular extends Component {
+class Popular extends Component {
     render() {
         return (
             <div>
-                <h1>popular</h1>
+                <h1>Popular</h1>
             </div>
         )
     }
 }
 
-export default popular
+export default Popular

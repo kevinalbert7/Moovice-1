@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-class weekly extends Component {
+class Weekly extends Component {
     render() {
         return (
             <div>
-                <h1>weekly</h1>
+                <h1>Weekly</h1>
             </div>
         )
     }
 }
 
-export default weekly
+export default Weekly
