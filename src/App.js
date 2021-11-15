@@ -13,16 +13,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class App extends Component {
   render() {
     return (
-      <div>
-            <div className="App">
-      <Route exact path="/" component={weekly}/>
-      <Route path="" component={weeklyBattle}/>
-      <Route path="" component={popular}/>
-      <Route path="" component={popularBattle}/>
-      <Route path="" component={favorites}/>
-      <Route path="*" component={Error404}/>
-    </div>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Switch>
+            <Route exact path="/" component={weekly}/>
+            <Route path="" component={weeklyBattle}/>
+            <Route path="" component={popular}/>
+            <Route path="" component={popularBattle}/>
+            <Route path="" component={favorites}/>
+            <Route path="*" component={Error404}/>
+          </Switch>
+        </div>
+      </BrowserRouter>
     );
   }
 }
