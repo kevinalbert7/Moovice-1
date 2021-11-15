@@ -4,7 +4,7 @@ class popularBattle extends Component {
     render() {
         return (
             <div>
-                
+                <h1>popularBattle</h1>
             </div>
         )
     }

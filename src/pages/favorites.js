@@ -4,7 +4,7 @@ class favorites extends Component {
     render() {
         return (
             <div>
-                
+                <h1>favorites</h1>
             </div>
         )
     }

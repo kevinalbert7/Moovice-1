@@ -16,11 +16,11 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Switch>
-            <Route exact path="/" component={weekly}/>
-            <Route path="" component={weeklyBattle}/>
-            <Route path="" component={popular}/>
-            <Route path="" component={popularBattle}/>
-            <Route path="" component={favorites}/>
+            <Route path="weekly" component={weekly}/>
+            <Route path="weeklyBattle" component={weeklyBattle}/>
+            <Route path="popular" component={popular}/>
+            <Route path="popularBattle" component={popularBattle}/>
+            <Route path="favorites" component={favorites}/>
             <Route path="*" component={Error404}/>
           </Switch>
         </div>

@@ -4,7 +4,7 @@ class weekly extends Component {
     render() {
         return (
             <div>
-                
+                <h1>weekly</h1>
             </div>
         )
     }
