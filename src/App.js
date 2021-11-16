@@ -31,7 +31,7 @@ class App extends Component {
           </nav>
           <Switch>
             <Route exact path="/" component={Home}/>
-            <Route path="/weekly" component={Weekly}/>
+            <Route path="/Weekly" component={Weekly}/>
             <Route path="/WeeklyBattle" component={WeeklyBattle}/>
             <Route path="/Popular" component={Popular}/>
             <Route path="/PopularBattle" component={PopularBattle}/>
