@@ -22,12 +22,18 @@ class PopularBattle extends Component {
     }
 
     render() {
-        console.log("state de movies dans PopularBattle:", this.state.movies)
+        console.log("state de movies dans PopularBattle:", this.state.movies.slice(0,2))
         return (
             <div>
                 <h1>popularBattle</h1>
-                {this.state.movies.slice(0,2).map((data) => (                  
-                    <Card />
+                {this.state.movies.slice(0,2).map((element) => (                  
+                    <Card 
+                        key={element.id} 
+                        image={element.poster_path}
+                        movieTitle={element.title} 
+                        movieReleaseDate={element.release_date}
+                        movieOverview={element.overview} 
+                    />
                     ))
                 }
             </div>
