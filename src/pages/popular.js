@@ -29,7 +29,7 @@ class Popular extends Component {
                     return (
                         <Card 
                             key={element.id} 
-                            moviePosterPath={element.poster_path}
+                            image={element.poster_path}
                             movieTitle={element.title} 
                             movieReleaseDate={element.release_date}
                             movieOverview={element.overview} 
